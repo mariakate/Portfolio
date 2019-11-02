@@ -1,0 +1,71 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+H1 {
+    font-family: 'Lilita One', cursive;
+}
+header {
+    min-height: 100vh;
+    background-color: #f8a18d;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fe7b5d;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav li {
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+nav ul {
+    padding-left: 0;
+}
+header main {
+    padding-top: 4rem;
+    text-align: center;
+    font-size:1.5rem;
+}
+
+header img {
+    width: 30%;
+}
+
+header h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.about-me {
+    line-height: 2;
+    padding: 3rem 10%;
+}
+.about-me h2 {
+    background-color: #fe7b5d;
+    color: white;
+}
+
+.projects {
+   line-height: 2;
+   padding: 3rem 10%;
+}
+.projects h2 {
+    background-color: #fe7b5d;
+    color: white;
+}
+.projects img {
+    width: 30%;
+    padding:1rem;
+    box-sizing: border-box;
+    padding-left:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
